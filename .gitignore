@@ -1,0 +1,62 @@
+# Node modules  
+node_modules/  
+
+# Logs  
+logs  
+*.log  
+npm-debug.log*  
+
+# Dependency directories  
+jspm_packages/  
+bower_components/  
+
+# Build outputs  
+dist/  
+build/  
+
+# Environment variables  
+.env  
+.env.local  
+.env.test  
+.env.production  
+
+# Coverage directory used by tools like istanbul  
+coverage/  
+
+# Testing  
+*.test.js  
+*.spec.js  
+test-results/  
+
+# IDEs and Editors  
+.vscode/  
+.idea/  
+*.sublime-workspace  
+*.sublime-project  
+*.swp  
+
+# Operating system files  
+.DS_Store  
+Thumbs.db  
+
+# npm package lock file  
+package-lock.json  
+
+# Yarn  
+yarn-error.log  
+yarn.lock  
+
+# Optional npm cache directory  
+.npm/  
+
+# Next.js build output  
+.next/  
+
+# Nuxt.js build output  
+.nuxt/  
+
+# Sapper build output  
+__sapper__/  
+
+# Local development files  
+.local/
