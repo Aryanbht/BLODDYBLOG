@@ -1,62 +1,40 @@
-# Node modules  
-node_modules/  
+
+# Node.js dependencies  
+/node_modules  
 
 # Logs  
-logs  
+/logs  
 *.log  
-npm-debug.log*  
-
-# Dependency directories  
-jspm_packages/  
-bower_components/  
-
-# Build outputs  
-dist/  
-build/  
 
 # Environment variables  
 .env  
 .env.local  
-.env.test  
-.env.production  
+.env.development.local  
+.env.test.local  
+.env.production.local  
 
-# Coverage directory used by tools like istanbul  
-coverage/  
+# Build output  
+/dist  
+/build  
 
-# Testing  
-*.test.js  
-*.spec.js  
-test-results/  
+# Temporary files  
+/tmp  
+/temp  
 
-# IDEs and Editors  
+# IDE and editor specific files  
+.DS_Store  
 .vscode/  
 .idea/  
 *.sublime-workspace  
 *.sublime-project  
-*.swp  
 
 # Operating system files  
-.DS_Store  
 Thumbs.db  
+ehthumbs.db  
+Icon?  
+.Spotlight-V100  
+.Trashes  
+.fseventsd  
 
-# npm package lock file  
-package-lock.json  
-
-# Yarn  
-yarn-error.log  
-yarn.lock  
-
-# Optional npm cache directory  
-.npm/  
-
-# Next.js build output  
-.next/  
-
-# Nuxt.js build output  
-.nuxt/  
-
-# Sapper build output  
-__sapper__/  
-
-# Local development files  
-.local/
+# MongoDB data files (if applicable)  
+/data/db  
